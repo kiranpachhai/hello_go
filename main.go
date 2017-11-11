@@ -13,7 +13,7 @@ var calls = 0
 
 func HelloWorld(w http.ResponseWriter, r *http.Request) {
 	calls++
-	fmt.Fprintf(w, "Hello, world! This server is served by a container that was built using another container. Everything is contained\n", calls)
+	fmt.Fprintf(w, "Hello, world! This server is served by a container that was built using another container. Everything is contained\n")
 }
 
 func init() {
